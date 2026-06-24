@@ -29,3 +29,12 @@ yarn install
 
 # Create the database
 createdb scattergories_db
+
+# Random Categories from players to choose from
+# Chooses a random letter
+# 30 second timer per categories
+# if you answer the question the first time & the answer is wrong change the category
+# whoever chooses the correct word for the category wins the round (keeping a tracker)
+# if the time ends and no one answers the letter changes but the categories stay the same
+
+//
