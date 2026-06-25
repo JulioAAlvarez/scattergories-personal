@@ -21,3 +21,4 @@ model test {
   id   Int     @id @default(autoincrement())
   name String?
 }
+ 
