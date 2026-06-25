@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// The underlying table does not contain a valid unique identifier and can therefore currently not be handled by Prisma Client.
+model Games {
+  id     String?  @db.Uuid
+  roomId String?
+  letter String?
+  topic  String?
+  answer String[]
+
+  @@ignore
+}
+
+model test {
+  id   Int     @id @default(autoincrement())
+  name String?
+}
