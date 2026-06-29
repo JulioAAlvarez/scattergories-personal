@@ -1,4 +1,5 @@
 import express from 'express';
+import type { Response, Request } from 'express'
 import cors from 'cors';
 import dotenv from 'dotenv';
 
